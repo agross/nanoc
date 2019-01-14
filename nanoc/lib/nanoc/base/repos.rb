@@ -3,7 +3,9 @@
 require_relative 'repos/store'
 
 require_relative 'repos/checksum_store'
+require_relative 'repos/binary_content_cache'
 require_relative 'repos/compiled_content_cache'
+require_relative 'repos/composite_cache'
 require_relative 'repos/config_loader'
 require_relative 'repos/data_source'
 require_relative 'repos/dependency_store'
